@@ -64,7 +64,7 @@ ul{
 
 .header-content{
 	display: flex;
-	padding: 24px 0;
+	align-items: center;
 }
 
 
@@ -115,7 +115,8 @@ ul{
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.02em;
-	padding: 24px 0
+	padding: 24px 0;
+	display: block;
 }
 .nav-item:hover,
 .nav-item:focus{
@@ -166,6 +167,8 @@ ul{
 	line-height: 107.143%;
 	letter-spacing: 1.12px;
 	max-width: 496px;
+	margin: 0 auto;
+	margin-bottom: 48px;
 }
 .intro-button{
 	display: block;
@@ -181,6 +184,7 @@ ul{
 	height: 56px;
 	border: none;
 	border-radius: 4px;
+	margin: 0 auto;
 }
 .intro-button:hover,
 .intro-button:focus{
@@ -346,8 +350,9 @@ ul{
 	color: var(--cloud);
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	line-height: 150%;
-	letter-spacing: 0.32px;
+	line-height: 1.17;
+	letter-spacing: 0.02em;
+	max-width: 264px;
 }
 
 

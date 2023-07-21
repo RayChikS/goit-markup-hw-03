@@ -34,11 +34,11 @@ body{
 	width: 1158px;
 	margin: 0 auto;
 	padding: 0 15px;
-	max-width: ;
+	/* max-width: ;
 	padding-left: ;
 	padding-right: ;
 	margin-left: ;
-	margin-right: ;
+	margin-right: ; */
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -64,6 +64,8 @@ ul{
 
 .header-content{
 	display: flex;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 
@@ -75,6 +77,7 @@ ul{
 	line-height: 1.17;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
+	margin-right: 76px
 }
 
 
@@ -95,8 +98,16 @@ ul{
 .list{
 	list-style: none
 }
+.nav-list{
+	display: flex;
+	gap: 40px;
+}
 
 
+.nav{
+	display: flex;
+	align-items: center;
+}
 
 .nav-item{
 	color: var(--navyblue);
@@ -105,6 +116,7 @@ ul{
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.02em;
+	padding: 24px 0
 }
 .nav-item:hover,
 .nav-item:focus{
@@ -117,8 +129,12 @@ ul{
 
 .address{
 	font-style: normal;
+	margin-left: 332px;
 }
-
+.address-list{
+	display: flex;
+	gap: 40px;
+}
 
 .address-item{
 	color: var(--slate);
@@ -140,6 +156,7 @@ ul{
 
 .intro{
 	background-color: var(--navyblue);
+	padding: 188px 0;
 }
 
 

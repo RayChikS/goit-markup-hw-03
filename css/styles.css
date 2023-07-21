@@ -156,8 +156,6 @@ ul{
 	background-color: var(--navyblue);
 	padding: 188px 0;
 }
-
-
 .intro-title{
 	color: var(--white);
 	text-align: center;
@@ -168,9 +166,8 @@ ul{
 	letter-spacing: 1.12px;
 	max-width: 496px;
 }
-
-
 .intro-button{
+	display: block;
 	color: var(--white);
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -204,12 +201,9 @@ ul{
 	text-align: center;
 	margin-bottom: 72px;
 }
-
-
 .advantages{
-	padding-bottom: 120px;
+	padding: 120px 0;
 }
-
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -222,8 +216,6 @@ ul{
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
-
-
 .advantages-subtitle{
 	color: var(--navyblue);
 	font-family: 'Roboto', sans-serif;
@@ -231,9 +223,8 @@ ul{
 	font-weight: 500;
 	line-height: 120%;
 	letter-spacing: 0.4px;
+	margin-bottom: 8px;
 }
-
-
 .advantages-text{
 	color: var(--slate);
 	font-family: 'Roboto', sans-serif;
@@ -241,16 +232,26 @@ ul{
 	line-height: 150%;
 	letter-spacing: 0.32px;
 }
-
 .advantages-list{
 	display: flex;
 	gap: 24px;
 }
+.advantages-item{
+	width: calc((100% - 72px) / 4);
+}
 
 
 
-
-
+.about{
+	padding-bottom: 120px;
+}
+.about-list{
+	display: flex;
+	gap: 24px;
+}
+.about-item{
+	width: calc((100% - 48px) / 3);
+}
 .about-title{
 	color: var(--navyblue);
 	font-family: 'Roboto', sans-serif;
@@ -260,19 +261,21 @@ ul{
 	letter-spacing: 0.72px;
 	text-transform: capitalize;
 	text-align: center;
+	margin-bottom: 72px;
 }
+
+
+
+
+
 
 
 .team{
 	background-color: #F4F4FD
 }
-
-
 .team-item{
 	background-color: #FFFFFF;
 }
-
-
 .team-title{
 	color: var(--navyblue);
 	font-family: 'Roboto', sans-serif;
@@ -283,8 +286,6 @@ ul{
 	text-transform: capitalize;
 	text-align: center;
 }
-
-
 .team-subtitle {
 	color: var(--navyblue);
 	text-align: center;
@@ -294,8 +295,6 @@ ul{
 	line-height: 120%;
 	letter-spacing: 0.4px;
 }
-
-
 .team-text {
 	color: var(--slate);
 	text-align: center;

@@ -326,8 +326,6 @@ ul{
 	background-color: var(--navyblue);
 	padding: 100px 0;
 }
-
-
 .footer-logo{
 	display: inline-block;
 	margin-bottom: 16px;
@@ -340,13 +338,9 @@ ul{
 	text-transform: uppercase;
 	text-decoration: none;
 }
-
-
 .footer-logo-span{
 	color: #f4f4fd
 }
-
-
 .footer-text{
 	color: var(--cloud);
 	font-family: 'Roboto', sans-serif;
@@ -362,6 +356,16 @@ ul{
 /* ______________MAIN-PORTFOLIO_______________ */
 
 
+.categories{
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
+.categories-list{
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	margin-bottom: 72px;
+}
 .categories-title{
 	color: var(--navyblue);
 	font-family: 'Roboto', sans-serif;
@@ -372,8 +376,6 @@ ul{
 	text-transform: capitalize;
 	text-align: center;
 }
-
-
 .categories-button{
 	background: var(--cloud);
 	color: var(--iris);
@@ -383,24 +385,37 @@ ul{
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.64px;
-	cursor: pointer
+	cursor: pointer;
+	padding: 12px 24px;
+	border: 1px solid #e7e9fc;
+	border-radius: 4px;
 }
 .categories-button:hover,
 .categories-button:focus{
 	color: var(--white);
 	background-color: #404BBF;
+	border: 1px solid transparent;
 }
 
 
 
 
 
-
+.gallery-list{
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 24px;
+	row-gap: 48px;
+}
 .gallery-item{
 	background: var(--white);
+	width: calc((100% - 48px) / 3);
 }
-
-
+.gallery-item-text{
+	padding: 32px 16px;
+	border: 1px solid #e7e9fc;
+	border-top: none;
+}
 .gallery-subtitle{
 	color: var(--navyblue);
 	font-family: 'Roboto', sans-serif;
@@ -408,9 +423,8 @@ ul{
 	font-weight: 500;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	margin-bottom: 8px
 }
-
-
 .gallery-text{
 	color: var(--slate);
 	font-family: 'Roboto', sans-serif;
